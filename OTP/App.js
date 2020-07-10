@@ -8,12 +8,7 @@ class App extends Component{
 
   componentDidMount(){
     const firebaseConfig = {
-      apiKey: "AIzaSyDPFye-vV5rtPvyewx_DtMnf8r7XtFwsuo",
-      authDomain: "one-time-password-8e76a.firebaseapp.com",
-      databaseURL: "https://one-time-password-8e76a.firebaseio.com",
-      projectId: "one-time-password-8e76a",
-      storageBucket: "one-time-password-8e76a.appspot.com",
-      messagingSenderId: "376645700161",
+      
     };
     firebase.initializeApp(firebaseConfig)
   }
